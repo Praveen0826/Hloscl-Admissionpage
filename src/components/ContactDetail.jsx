@@ -5,13 +5,13 @@ function ContactDetail() {
   return (
     <div><div className=' md:w-[100%] w-full  mt-12'>
     <div className=''>
-      <div className=' flex py-3 md:mx-7 mx-3 border border-t-0 border-r-0 border-b  border-slate-100 mt-5 shadow-md bg-[#ffffff] '>
-
-        <h1 className='pl-4 font-bold text-lg  bg-[#ffffff]  '>Contact Datails</h1>
+      <div className=' flex py-3 md:mx-16 mx-3 pl-4 items-center border border-t-0 border-r-0 border-b  border-slate-100 mt-5 shadow-md bg-[#e9edf4] '>
+      <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-address-book"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M20 6v12a2 2 0 0 1 -2 2h-10a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h10a2 2 0 0 1 2 2z" /><path d="M10 16h6" /><path d="M13 11m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" /><path d="M4 8h3" /><path d="M4 12h3" /><path d="M4 16h3" /></svg>
+        <h1 className='pl-2 font-bold text-lg  bg-[#e9edf4]  '>Contact Details</h1>
 
       </div>
 
-      <div className='md:mx-7 mx-3 md:grid-cols-3 grid-cols-1 grid pt-5 px-5 gap-8 shadow-md bg-[#ffffff]  '>
+      <div className='md:mx-16 mx-3 md:grid-cols-3 grid-cols-1 grid pt-5 px-5 gap-8 shadow-md bg-[#ffffff]  '>
       <div className='md:pb-5 pb-0'>
           <h1 className='text-sm font-bold '>Contact Number</h1>
           <input autoComplete='email' className=' mt-1 w-full  px-3 py-2 text-sm   rounded focus:outline-none border border-slate-200 bg-white' type="text" />
@@ -92,13 +92,13 @@ function ContactDetail() {
   
   <div className=' md:w-[100%] w-full mt-12'>
           <div className=''>
-            <div className=' flex py-3 md:mx-7 mx-3 border border-t-0 border-r-0 border-b  border-slate-100 mt-5 shadow-md bg-[#ffffff] '>
-
-              <h1 className='pl-4 font-bold text-lg  bg-[#ffffff]  '>Notes</h1>
+            <div className=' flex py-3 pl-4 items-center md:mx-16 mx-3 border border-t-0 border-r-0 border-b  border-slate-100 mt-5 shadow-md bg-[#e9edf4] '>
+            <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-notes"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M5 3m0 2a2 2 0 0 1 2 -2h10a2 2 0 0 1 2 2v14a2 2 0 0 1 -2 2h-10a2 2 0 0 1 -2 -2z" /><path d="M9 7l6 0" /><path d="M9 11l6 0" /><path d="M9 15l4 0" /></svg>
+              <h1 className='pl-2 font-bold text-lg  bg-[#e9edf4]  '>Notes</h1>
 
             </div>
 
-            <div className=' md:mx-7 mx-3  grid-cols-1 grid pt-5 px-5 gap-4 shadow-md bg-[#ffffff]  '>
+            <div className=' md:mx-16 mx-3  grid-cols-1 grid pt-5 px-5 gap-4 shadow-md bg-[#ffffff]  '>
             
 
             <div className='md:pb-5 pb-0 mb-5 '>
