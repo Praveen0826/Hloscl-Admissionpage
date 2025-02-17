@@ -110,6 +110,9 @@ function ContactDetail() {
           </div>
         </div>
   </div>
+  // <div>
+  //   <h1>Declartion</h1>
+  //   </div>
   )
 }
 

@@ -76,6 +76,22 @@ function StudentsDetail() {
           </div>
         </div>
         <ContactDetail/>
+
+        <div>
+          {/* <h1 className='pl-2 font-bold text-lg ml-20 mt-10 '>Declaration</h1> */}
+          <div className="text-center mt-10">
+          <p className=" mt-3 mx-6 ">By Submitting this form,you confirm that to the best of your knowledge and belief the information you have given is correct</p>
+          <div className="mx-5 mt-3.5">
+          <input type="checkbox" className=" h-4 w-4"></input>
+          <label> I confirm that i understand and accept this declartion</label>
+          </div>
+        
+          </div>
+          </div>
+          <div className="flex justify-center">
+          <button className="bg-gradient-to-r from-fuchsia-500 to-cyan-500 text-white px-3 py-2 rounded-lg mt-4">Submit</button>
+          </div>
+        
     </div>
   )
 }
